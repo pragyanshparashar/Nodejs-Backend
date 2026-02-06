@@ -37,10 +37,15 @@
                         <p class="text-white mt-2">
                             
                         </p>
-
-                        <a class="text-blue-500 hover:underline inline-block mt-3" href="/file/<%=val%>">
+                        <div class="flex w-full justify-between mt-3">
+                             <a class="text-blue-500 hover:underline inline-block " href="/file/<%=val%>">
                             READ
                         </a>
+                            <a class="text-zinc-600 hover:underline inline-block mt-3" href="/edit/<%=val%>">
+                                EDIT
+                            </a>
+                        </div>
+                       
                     </div>
                 <% }) %>
 
